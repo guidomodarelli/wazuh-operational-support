@@ -20,6 +20,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Wazuh API 55000 timeout (GCP)', slug: 'guides/wazuh-api-55000-connection-timeout-gcp' },
+						{ label: 'Hostname vs agent.name mismatch', slug: 'guides/agent-name-hostname-mismatch-dashboard' },
 					],
 				},
 			],

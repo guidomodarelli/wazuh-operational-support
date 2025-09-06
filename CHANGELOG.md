@@ -11,6 +11,11 @@ Registro de cambios. Se actualiza en cada edición o creación de archivo hecha 
 
 ---
 
+## 1.1.0 - 2025-09-06
+
+- Added: new guide to resolve hostname vs `agent.name` mismatch in the Wazuh dashboard via clean re-registration. File: `src/content/docs/guides/agent-name-hostname-mismatch-dashboard.md`.
+- Updated: sidebar to include the new guide under Guides. File: `astro.config.mjs`.
+
 ## 1.0.0 - 2025-09-06
 
 - Removed: top-level "Reference" section from the sidebar. File: `astro.config.mjs`.
