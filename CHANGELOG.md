@@ -11,6 +11,10 @@ Registro de cambios. Se actualiza en cada edición o creación de archivo hecha 
 
 ---
 
+## 0.2.0 - 2025-09-06
+
+- Added: new guide to resolve Wazuh API `55000` connection timeouts caused by GCP firewall rules. File: `src/content/docs/guides/wazuh-api-55000-connection-timeout-gcp.md`. Also added to sidebar.
+
 ## 0.1.1 - 2025-09-06
 
 - Added: actualización de `AGENTS.md` para requerir edición de `CHANGELOG.md` en cada cambio o archivo nuevo.
