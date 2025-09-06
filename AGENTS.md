@@ -87,3 +87,10 @@ owner: "@tu-usuario"
 * Preferir `.md` para simplicidad; usar `.mdx` solo si se requiere JSX.
 * Mantener imports/remark/rehype mínimos.
 * Probar la ruta local con `npm run dev` y validar enlaces antes de hacer merge.
+
+## 9) Registro de cambios (CHANGELOG)
+
+- Actualizar `CHANGELOG.md` en cada edición o creación de archivo.
+- Versionado: SemVer. PATCH por cambios puntuales; MINOR por adiciones relevantes; MAJOR si rompe rutas/estructura.
+- Formato sugerido: fecha ISO y lista breve de cambios con archivo(s) y resumen.
+- Responsable: el asistente debe realizar esta actualización automáticamente junto con el cambio.
