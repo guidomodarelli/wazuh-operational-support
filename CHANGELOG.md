@@ -11,6 +11,11 @@ Registro de cambios. Se actualiza en cada edición o creación de archivo hecha 
 
 ---
 
+## 1.0.0 - 2025-09-06
+
+- Removed: top-level "Reference" section from the sidebar. File: `astro.config.mjs`.
+- Removed: directory `src/content/docs/reference/` and its pages (breaking change; routes under `/reference/*` removed).
+
 ## 0.3.0 - 2025-09-06
 
 - Added: new "Getting Started" page to help readers understand how to use and navigate the documentation. File: `src/content/docs/overview/getting-started.md`. Includes TL;DR, Context, Steps, Examples, Troubleshooting, and References.

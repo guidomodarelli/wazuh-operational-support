@@ -22,10 +22,6 @@ export default defineConfig({
 						{ label: 'Wazuh API 55000 timeout (GCP)', slug: 'guides/wazuh-api-55000-connection-timeout-gcp' },
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
 			],
 		}),
 	],
