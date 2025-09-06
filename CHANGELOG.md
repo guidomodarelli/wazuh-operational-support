@@ -11,6 +11,12 @@ Registro de cambios. Se actualiza en cada edición o creación de archivo hecha 
 
 ---
 
+## 0.3.0 - 2025-09-06
+
+- Added: new "Getting Started" page to help readers understand how to use and navigate the documentation. File: `src/content/docs/overview/getting-started.md`. Includes TL;DR, Context, Steps, Examples, Troubleshooting, and References.
+- Updated: homepage hero to link "Getting Started" first. File: `src/content/docs/index.mdx`.
+- Updated: sidebar to include a top-level "Getting Started" section. File: `astro.config.mjs`.
+
 ## 0.2.0 - 2025-09-06
 
 - Added: new guide to resolve Wazuh API `55000` connection timeouts caused by GCP firewall rules. File: `src/content/docs/guides/wazuh-api-55000-connection-timeout-gcp.md`. Also added to sidebar.
