@@ -42,10 +42,12 @@ owner: "@tu-usuario"
 ## 4) Estilo de contenido
 
 * Empieza con **TL;DR** (máx. 4 líneas).
-* Luego sigue el orden: **Contexto → Pasos → Ejemplos → Troubleshooting → Referencias**.
+* Luego sigue el orden: **Contexto → Pasos → Ejemplos → Troubleshooting → Referencias** (adapta según el contenido).
+* No es necesario seguir los pasos mencionados de forma estricta, puede que para algunos pasos no aplique.
 * Tono directo, orientado a la acción. Evitar ambigüedades.
 * Usar encabezados `##`/`###` para mejorar indexación y navegación.
 * Incluir ejemplos reproducibles y fragmentos de código cuando aplique.
+* No inventar información nueva; usar solo datos verificados o muy probables.
 
 ## 5) Criterios de decisión (¿editar o crear?)
 
@@ -84,9 +86,7 @@ owner: "@tu-usuario"
 
 ## 8) Notas específicas de Astro
 
-* Preferir `.md` para simplicidad; usar `.mdx` solo si se requiere JSX.
-* Mantener imports/remark/rehype mínimos.
-* Probar la ruta local con `npm run dev` y validar enlaces antes de hacer merge.
+* Preferir `.md` para simplicidad;
 
 ## 9) Registro de cambios (CHANGELOG)
 
